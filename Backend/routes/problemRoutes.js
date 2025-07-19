@@ -1,17 +1,14 @@
 const express = require('express');
-const {
-  addProblem,
-  getAllProblems,
-  getProblemById
-} = require('../controllers/problemController');
-
 const router = express.Router();
+const problemController = require('../controllers/problemController');
 
-router.post('/', addProblem);
+// Route to add a new problem (you can later restrict this to admins only)
+router.post('/add', problemController.addProblem);
 
-router.get('/', getAllProblems);
+// Route to get all problems
+router.get('/', problemController.getAllProblems);
 
-
-router.get('/:id', getProblemById);
+// Route to get problem by ID
+router.get('/:id', problemController.getProblemById);
 
 module.exports = router;
