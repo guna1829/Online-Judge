@@ -1,12 +1,10 @@
 
 
 <p align="center">
-  <a href="https://www.codevm.online">
-    <img src="https://img.shields.io/badge/Live_Site-www.codevm.online-blue?style=for-the-badge&logo=vercel" alt="Live Site">
-  </a>
+  
   &nbsp;&nbsp;
-  <a href="https://drive.google.com/drive/folders/1MERZ9veRAZ32EwlGROG-sm-31WQXkBix?usp=sharing">
-    <img src="https://img.shields.io/badge/Watch_Demo_Video-FF0000?style=for-the-badge&logo=youtube" alt="Demo Video">
+
+    
   </a>
 </p>
 
