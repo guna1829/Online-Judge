@@ -1,0 +1,5 @@
+/api/*   http://13.211.72.161:5001/:splat   200
+/compiler/*   http://13.211.72.161:9001/:splat   200
+
+# SPA routing (React Router)
+/*   /index.html   200
